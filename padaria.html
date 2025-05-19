@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotpão</title>
+</head>
+<body>
+    <script>
+        var precopao = Number(0.12), precobroa = Number(1.50)
+
+        var qtd = Number(prompt("Quantos pães foram vendidos? "))
+        var qtdbroas = Number(prompt("Quantos pães foram vendidos?"))
+
+        var valorArrecadadoPaes = qtd * precopao
+        var valorArrecadadoBroas = qtd * precobroa
+
+        var valorTotalArrecadado = valorArrecadadoPaes + valorArrecadadoBroas
+
+        var poupanca = valorTotalArrecadado * 10/ 100
+        alert("Você arrecadou" + valorTotalArrecadado + "com pães e broas.")
+        alert("Você deve guardar na poupança: " + poupança)
+
+    </script>
+</body>
+</html>
